@@ -141,8 +141,8 @@ body{
 @media only screen and (max-width: 768px) {
     /*Banner*/
     .profileImage{
-        height:9.25em;
-        width: 9.25em;
+        height:5em;
+        width: 5em;
         margin: 1em 0 1em 2em;
     }
 
