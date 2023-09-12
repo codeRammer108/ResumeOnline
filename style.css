@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Pacifico&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Pacifico', cursive; */
+    color: white;
+
+}
+
+/* common CSS */
+.headingColor{
+    color: #7a291a;
+}
+
+/*Banner*/
+.bannerHeader{
+    margin: 0;
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 0.4fr 0.6fr;
+    background: #7a291a;
+}
+
+.profileImage{
+    border-radius: 50%;
+    height:11.25em;
+    width: 11.25em;
+    margin: 2em 0 2em 10em;
+}
+.fullName{
+    font-size: 2.9em;
+    width: 100%;
+    margin: 0 0 0 0;
+}
+
+.myDesc{
+    margin: 0 0 0 0;
+    font-size: 0.3em;
+    padding: 0 12em 0 0;
+}
+
+/* Basic Banner */
+
+.basicBanner{
+    background-color: black;
+    margin: 0;
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 0.3fr 0.7fr;
+    column-gap: 5px;
+}
+
+.basicBannerHeading{
+    font-size: 2em;
+    /* width: 300px; */
+    margin: 0em 0 0 5em;
+    padding: 1em 0 0 0;
+}
+
+.myBasicDesc{
+    margin: 0.5em 0 0 10em;
+    font-size: 1em;
+    width: 600px;
+    padding: 3.2em 0 3.2em 0;
+    text-align: left;
+}
+
+.companyName, a:link, a:visited{
+    color: #7a291a;
+}
+
+/* Education List */
+
+.educationList{
+    list-style-type: none;
+}
+
+.educationListItems{
+    font-size: 1.2em;
+    margin:0;
+    padding: 0;
+    font-weight: bold;
+    
+}
+
+.educationListItemsDate{
+    margin: 0;
+}
+
+.educationListItemsDesc{
+    margin: 0.5em 0 2em 0;
+}
+/* Project */
+
+.projectSection{
+    background-color: black;
+    padding: 0 0 0 0em;
+}
+
+.projectName{
+    font-weight: bold;
+    padding: 2em 0 0 12em;
+}
+
+.projectDesc{
+    padding: 0.5em 0 2em 12em;
+    width: 70%;
+    
+}
+
+/* Footer */
+
+.footerPage{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.footerContact{
+    list-style: none;
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+    margin: 0;
+    color: #7a291a;
+    font-weight: bold;
+    padding:  2em 0 2em 0;
+}
+
+.footerItems{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/*Responsive*/
+
+@media only screen and (max-width: 768px) {
+    /*Banner*/
+    .profileImage{
+        height:9.25em;
+        width: 9.25em;
+        margin: 1em 0 1em 2em;
+    }
+
+    .fullName{
+        font-size: 2em;
+        width: 80%;
+    }
+
+    .myDesc{
+        width: 100%;
+        padding: 1em 0 0em 0;
+    }
+
+    /*Education*/
+    .basicBannerHeading{
+        margin: 0 0 0 3em;
+        font-size: 1.2em;
+    }
+
+    .myBasicDesc{
+        margin: 0em 0 0 2.5em;
+        font-size: 0.8em;
+        width: 80%;
+        padding: 3.2em 0 3.2em 0;
+        text-align: left;
+    }
+
+    .whatLearned{
+        width: 30em;
+        
+        
+    }
+
+    .headingRes{
+        font-size: 1em;
+        
+    }
+
+    .textSmaller{
+        font-size: 1em;
+        margin: 0 0 0 0;
+        padding-left: 5em;
+    }
+
+    .textMobileDesc{
+        font-size: 0.8em;
+        padding-left: 6em;
+    }
+
+    /*Footer*/
+
+    .footerPage{
+        font-size: 0.7em;
+    }
+}
