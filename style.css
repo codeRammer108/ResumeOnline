@@ -212,5 +212,10 @@ body{
     .content {
         font-size: 0.5em;
     }
+
+    .pro{
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+    }
     
 }
