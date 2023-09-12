@@ -138,11 +138,11 @@ body{
 
 /*Responsive*/
 
-@media only screen and (max-width: 768px) {
+@media (max-width: 768px) {
     /*Banner*/
     .profileImage{
-        height:9.25em;
-        width: 9.25em;
+        height:5em;
+        width: 5em;
         margin: 1em 0 1em 2em;
     }
 
@@ -197,4 +197,20 @@ body{
     .footerPage{
         font-size: 0.7em;
     }
+}
+
+@media (max-width: 660px) {
+
+    .name {
+        font-size: 0.8em;
+    }
+
+    .headingTitle{
+        font-size: 0.8em;
+    }
+
+    .content {
+        font-size: 0.5em;
+    }
+    
 }
