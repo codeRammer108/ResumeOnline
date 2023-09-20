@@ -1,7 +1,7 @@
-name: Github Actions Demo
+name: GitHub Actions Demo
 on: [push]
 jobs:
-  Explore-Github-Actions:
-    runs-on: windows-latest
-    steps:
-      -run: echo"❤️You Pushed it! Hello world"
+   Explore-GitHub-Actions:
+         runs-on: ubuntu-latest
+         steps:
+           - run: echo "Hello world"
