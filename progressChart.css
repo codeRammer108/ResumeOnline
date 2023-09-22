@@ -255,11 +255,13 @@ p{
 }
 
 @media only screen and (max-width: 1440px){
+
   .container{
     max-width:1200px;
   }
   .roadmap-content {
     padding: 40px 0px;
+  }
 }
   
 @media only screen and (max-width: 1080px){
@@ -268,4 +270,5 @@ p{
   }
   .roadmap-content {
     padding: 0px 0px;
+  }
 }
